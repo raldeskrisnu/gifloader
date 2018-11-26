@@ -6,6 +6,7 @@ import com.id.ralds.gifloader.gifLoader;
 
 public class MainActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

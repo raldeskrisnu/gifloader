@@ -9,12 +9,12 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;
 
-public class gifLoader {
+public class GifLoader {
 
     Activity activity;
     Dialog dialog;
 
-    public gifLoader(Activity activity) {
+    public GifLoader(Activity activity) {
         this.activity = activity;
     }
 
