@@ -60,3 +60,5 @@ for the theme use this one.
         <item name="android:background">@android:color/transparent</item>
     </style>
 ```
+
+[*Powered By Glide Bumptech*](https://github.com/bumptech/glide) 
