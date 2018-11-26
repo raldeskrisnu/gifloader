@@ -14,6 +14,51 @@ Deployed By
 
 # How to use it
 
+*Gradle* 
+
+Add it in your root build.gradle at the end of repositories:
+
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Add the dependency
+
+```
+dependencies {
+	        implementation 'com.github.raldeskrisnu:gifloader:1.1'
+	}
+```
+---
+
+*maven*
+
+Add the JitPack repository to your build file
+
+```
+<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+
+Add the dependency
+
+```
+<dependency>
+	    <groupId>com.github.raldeskrisnu</groupId>
+	    <artifactId>gifloader</artifactId>
+	    <version>1.1</version>
+	</dependency>
+```
+---
+
 Create variable to call the library example
 
 ```
